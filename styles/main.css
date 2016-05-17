@@ -100,17 +100,46 @@ body {
 
    background-size:cover;
    background-position:center 81%;
+   /*background-attachment: fixed;*/
 }
 
 .cover img{
   margin-top:0px;
 }
 
+.title-bar{
+  text-transform: uppercase;
+  color:black;
+  font-size: 2.4em;
+  border-bottom: solid black 3px;
+
+}
+.title-box{
+  text-transform: uppercase;
+  color:rgba(0,0,0,0.8);
+  letter-spacing: 3px;
+  font-size: 3.4em;
+  font-weight: 500;
+  border-bottom:solid 3px rgba(0,0,0,0.5);
+  margin-top:10px;
+  margin-bottom:20px;
+}
+.light-title{
+  text-align: left;
+  text-transform: uppercase;
+  color:rgba(255,255,255,0.9);
+  letter-spacing: 3px;
+  font-size: 3.4em;
+  font-weight: 500;
+  border-bottom:solid 3px rgba(255,255,255,0.5);
+  margin-top:10px;
+  margin-bottom:20px;
+}
 .navbar:before{
 
 }
 .navbar{
-  box-shadow: 0 -20px 20px -20px rgba(0,0,0,0.23), 0 -6px 6px -6px rgba(0,0,0,0.23);
+  box-shadow: 0 -0px 30px -30px rgba(0,0,0,0.5), 0 -6px 6px -6px rgba(0,0,0,0.5);
 
   border-radius:none;
   border:none;
@@ -122,9 +151,14 @@ body {
 .navbar a{
   font-family: 'Roboto', sans-serif !important;
   /*font-weight:700 !important;*/
-  font-size:1.33em;
+  font-size:1.1em;
   letter-spacing:0.6px;
   color:rgba(0,0,0,0.7) !important;
+}
+
+.navbar a:hover{
+
+  color:rgba(0,0,0,1) !important;
 }
 
 .header{
@@ -394,4 +428,8 @@ h1{
   line-height: 1.5em;
   letter-spacing: 1px;
   font-size:1.5em;
+}
+
+.resource-card {
+  margin-top:10px;
 }

@@ -1,6 +1,12 @@
 
 
 <div class="pure-g contained">
+
+  <div class="pure-u-1-1 title-box">
+
+      meet the participants
+
+  </div>
   <div class="pure-u-1-1">
   <p class="teams-intro">These are the teams of Data and Planetary scientists that will be participating
     <br> in this year's Frontier Development Lab.
@@ -20,7 +26,7 @@
 
     <div class="pure-u-1-2 team-card" ng-repeat="newTool in newTools">
       <!-- <div class="pure-u-1-5"> -->
-        <img class="pure-img team-img" src="images/people/jamesProfile.png"/>
+        <img class="pure-img team-img" ng-src="images/teams/{{newTool.image}}"/>
       <!-- </div> -->
       <!-- <div class="pure-u-4-5"> -->
         <p class="team-name">{{newTool.name}}</p>
@@ -47,7 +53,7 @@
 
     <div class="pure-u-1-2 team-card" ng-repeat="newApproach in newApproaches">
       <!-- <div class="pure-u-1-5"> -->
-        <img class="pure-img team-img" src="images/people/jamesProfile.png"/>
+        <img class="pure-img team-img" ng-src="images/teams/{{newApproach.image}}"/>
       <!-- </div> -->
       <!-- <div class="pure-u-4-5"> -->
         <p class="team-name">{{newApproach.name}}</p>
@@ -75,7 +81,7 @@
 
     <div class="pure-u-1-2 team-card" ng-repeat="newDiscovery in newDiscoveries">
       <!-- <div class="pure-u-1-5"> -->
-        <img class="pure-img team-img" src="images/people/jamesProfile.png"/>
+        <img class="pure-img team-img" ng-src="images/teams/{{newDiscovery.image}}"/>
       <!-- </div> -->
       <!-- <div class="pure-u-4-5"> -->
         <p class="team-name">{{newDiscovery.name}}</p>

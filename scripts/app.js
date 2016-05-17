@@ -55,6 +55,16 @@ angular
         controller: 'TeamsCtrl',
         controllerAs: 'teams'
       })
+      .when('/resources', {
+        templateUrl: 'views/resources.html',
+        controller: 'ResourcesCtrl',
+        controllerAs: 'resources'
+      })
+      .when('/information', {
+        templateUrl: 'views/information.html',
+        controller: 'InformationCtrl',
+        controllerAs: 'information'
+      })
       .otherwise({
         redirectTo: '/'
       });
