@@ -1,0 +1,18 @@
+<div class="pure-g contained">
+
+
+  <div class="pure-u-1-2 profile" ng-repeat="person in persons">
+    <div class="pure-g">
+      <div class="pure-u-1-5">
+        <img class="pure-img profile-img" ng-src="{{person.image}}"/>
+      </div>
+      <div class="pure-u-4-5">
+        <p class="profile-name">{{person.name}}</p>
+        <p class="profile-title">{{person.title}}</p>
+        <p class="profile-email"><a href="mailto:{{person.email}}">{{person.email}}</a></p>
+      </div>
+    </div>
+  </div>
+
+
+</div>
