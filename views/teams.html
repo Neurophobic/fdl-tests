@@ -15,9 +15,11 @@
 
   <div class="team pure-g">
   <div class="pure-u-8-24 team-plate new-tool-border">
+ 
     <span class="over">
       team
     </span>
+
     <h1>new tools</h1>
 
 <div class="" ng-repeat="newTool in newTools | filter: {featured: true}">
@@ -26,7 +28,7 @@
     <p class="team-name-feat">{{newTool.name}}</p>
     <p class="team-title-feat ">{{newTool.title}}</p>
     <p class="new-tool-mentor-email"><a href="">twitter/linkedin</a></p>
-    <p class="team-bio-feat" >"{{newTool.bio}}"</p>
+    <p class="team-bio-feat" style="white-space:pre-wrap;">"{{newTool.bio}}"</p>
 </div>
 
   </div>
@@ -67,7 +69,7 @@
     <p class="team-name-feat">{{newApproach.name}}</p>
     <p class="team-title-feat ">{{newApproach.title}}</p>
     <p class="new-approach-mentor-email "><a href="">twitter/linkedin</a></p>
-    <p class="team-bio-feat" >"{{newApproach.bio}}"</p>
+    <p class="team-bio-feat" style="white-space:pre-wrap;" >"{{newApproach.bio}}"</p>
 </div>
 
   </div>
@@ -110,7 +112,7 @@
     <p class="team-name-feat">{{newDiscovery.name}}</p>
     <p class="team-title-feat ">{{newDiscovery.title}}</p>
     <p class="new-discovery-mentor-email "><a href="">twitter/linkedin</a></p>
-    <p class="team-bio-feat" >"{{newDiscovery.bio}}"</p>
+    <p class="team-bio-feat" style="white-space:pre-wrap;">"{{newDiscovery.bio}}"</p>
 </div>
 
   </div>

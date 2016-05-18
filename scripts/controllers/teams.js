@@ -64,7 +64,7 @@ angular.module('fdlApp')
                 showbio: false,
                 featured: false,
                 team: 'new tools',
-                bio: 'Alessondra Springmann is a planetary astronomer working for the OSIRIS-REx asteroid sample return mission as a graduate researcher at the University of Arizonas Lunar and Planetary Laboratory.  She spent two years at Arecibo Observatory observing near-Earth asteroids with the megawatt planetary radar system on the 305-meter William E. Gordon radio telescope.  Her research interests include asteroids, comets, and meteorites.  Alessondra received her M.Sc. from MIT in Earth & Planetary Sciences and a B.A. from Wellesley College in Astrophysics.  In her spare time she hikes, SCUBA dives, herds cats, writes about science, and races sailboats.'
+                bio: 'Alessondra Springmann is a planetary astronomer working for the OSIRIS-REx asteroid sample return mission as a graduate researcher at the University of Arizonas Lunar and Planetary Laboratory. \n\n She spent two years at Arecibo Observatory observing near-Earth asteroids with the megawatt planetary radar system on the 305-meter William E. Gordon radio telescope.  Her research interests include asteroids, comets, and meteorites.  Alessondra received her M.Sc. from MIT in Earth & Planetary Sciences and a B.A. from Wellesley College in Astrophysics. \n\n In her spare time she hikes, SCUBA dives, herds cats, writes about science, and races sailboats.'
             },
 
             {
@@ -75,7 +75,7 @@ angular.module('fdlApp')
                 showbio: false,
                 featured: false,
                 team: 'new tools',
-                bio: 'I received my PhD in Computer Science from the University of Montpellier and the Ecole des Mines d’alas, France in July 2008.I worked on topics such as data streams and sequential pattern mining. I also worked at the National University of Singapore as a post-doctoral researcher on privacy-preserving data mining. I joined the Institut National de Recherche en Informatique et en Automatique (INRIA), France, in fall 2009. I am currently a permanent research scientist (Chargé de recherche 1) within the Orpailleur team working on data mining and machine learning problems.'
+                bio: 'I received my PhD in Computer Science from the University of Montpellier and the Ecole des Mines d’alas, France in July 2008.\n\nI worked on topics such as data streams and sequential pattern mining. I also worked at the National University of Singapore as a post-doctoral researcher on privacy-preserving data mining. \n\nI joined the Institut National de Recherche en Informatique et en Automatique (INRIA), France, in fall 2009. I am currently a permanent research scientist (Chargé de recherche 1) within the Orpailleur team working on data mining and machine learning problems.'
             },
 
             {
@@ -122,7 +122,7 @@ angular.module('fdlApp')
                 showbio: false,
                 feature: false,
                 team: 'new approaches',
-                bio: 'I am a graduate student studying astrophysics at UCLA. My thesis work is focussing on shape modeling of asteroids from radar data, along with the orbital dynamics of near-earth asteroids and measuring subtle non-secular variations in these orbits. I like logic and math puzzles, and I enjoy bouldering in my free time.'
+                bio: 'I am a graduate student studying astrophysics at UCLA. My thesis work is focussing on shape modeling of asteroids from radar data, along with the orbital dynamics of near-earth asteroids and measuring subtle non-secular variations in these orbits. \n\n I like logic and math puzzles, and I enjoy bouldering in my free time.'
             },
 
             {
@@ -133,7 +133,7 @@ angular.module('fdlApp')
                 showbio: false,
                 featured: false,
                 team: 'new approaches',
-                bio: 'Erika Nesvold received a B.S. in Mathematics, an M.S. in Applied Physics, and a Ph.D. in Physics from the University of Maryland, Baltimore County. She performed her graduate research at the NASA Goddard Space Flight Center. For her Ph.D. thesis, she developed a computer model of the dynamics and collisions of asteroids in other solar systems. Currently, she is working as a Postdoctoral Fellow in the Department of Terrestrial Magnetism at the Carnegie Institution of Washington.'
+                bio: 'Erika Nesvold received a B.S. in Mathematics, an M.S. in Applied Physics, and a Ph.D. in Physics from the University of Maryland, Baltimore County.\n\n She performed her graduate research at the NASA Goddard Space Flight Center. For her Ph.D. thesis, she developed a computer model of the dynamics and collisions of asteroids in other solar systems. \n\n Currently, she is working as a Postdoctoral Fellow in the Department of Terrestrial Magnetism at the Carnegie Institution of Washington.'
             },
 
             {
@@ -143,7 +143,7 @@ angular.module('fdlApp')
                 image: 'elmarieProfile.png',
                 showbio: false,
                 team: 'new approaches',
-                bio: 'My name is Elmarie van Heerden. I am 29 years old and born in Pretoria, South Africa. I am currently a student at the University of Oxford reading for a DPhil. in Engineering with application to astrophysics, more specifically radio astronomy and pulsar searching. The specific field of research that interest me is the development of novel artificial intelligence and machine learning algorithms to autonomously exploit large data sets. Moreover, I find the crossover between machine learning, big data and astrophysics fascinating because it presents wonderful opportunities to do ground breaking science.  In my spare time I play rugby for the University of Oxford Womens rugby team. I am mad for good coffee and delicious food. I have a yen for travel and my Achilles heel is the Wikipedia-vortex I have going on in my browser, I never manage to open just one Wiki page.'
+                bio: 'My name is Elmarie van Heerden. I am 29 years old and born in Pretoria, South Africa. I am currently a student at the University of Oxford reading for a DPhil. in Engineering with application to astrophysics, more specifically radio astronomy and pulsar searching.\n\n The specific field of research that interest me is the development of novel artificial intelligence and machine learning algorithms to autonomously exploit large data sets. Moreover, I find the crossover between machine learning, big data and astrophysics fascinating because it presents wonderful opportunities to do ground breaking science. \n\n In my spare time I play rugby for the University of Oxford Womens rugby team. I am mad for good coffee and delicious food. I have a yen for travel and my Achilles heel is the Wikipedia-vortex I have going on in my browser, I never manage to open just one Wiki page.'
             },
 
             {
@@ -154,7 +154,7 @@ angular.module('fdlApp')
                 showbio: false,
                 featured: false,
                 team: 'new approaches',
-                bio: 'I am a physicist originally specialising in femtosecond lasers and applying these lasers in the relatively new field of Ultrafast Electron Diffraction. I have recently changed research fields and joined an astronomy group that specialises in designing, manufacturing and installing instrumentation (CCD cameras, focal reducers, spectrographs etc.) for medium-sized optical telescopes. I consider myself a highly motivated, goal orientated, and methodical worker. My fundamental physics background, together with a strong focus on hands-on experimental approaches in a team environment, demonstrates my ability to bring fresh ideas and approaches from a coherent yet pragmatic perspective. '
+                bio: 'I am a physicist originally specialising in femtosecond lasers and applying these lasers in the relatively new field of Ultrafast Electron Diffraction. \n\n I have recently changed research fields and joined an astronomy group that specialises in designing, manufacturing and installing instrumentation (CCD cameras, focal reducers, spectrographs etc.) for medium-sized optical telescopes. \n\n I consider myself a highly motivated, goal orientated, and methodical worker. My fundamental physics background, together with a strong focus on hands-on experimental approaches in a team environment, demonstrates my ability to bring fresh ideas and approaches from a coherent yet pragmatic perspective. '
             },
     ];
 
@@ -179,7 +179,7 @@ angular.module('fdlApp')
                 showbio: false,
                 featured: false,
                 team: 'new discoveries',
-                bio: 'Sravanthi Sinha is a Full Stack Software Engineer. She is really excited about the future of AI research. Currently one of the 32 students selected all around the world to be part of the first class Holberton School. Was a Student Intern at National Resource for Network Biology (NRNB) in 2012 . Member of NRNB Academy Alumni. Successfully completed Google Summer Of Code (GSOC) 2013 and GSOC 2014 first as a student and then as a mentor. Published WikiPathways: capturing the full diversity of pathway knowledge (2015) in Oxford Journals. Sravanthi earned a Bachelor’s degree in Electronics & Communication Engineering from Jawaharlal Nehru Technological University in Hyderabad, India.'
+                bio: 'Sravanthi Sinha is a Full Stack Software Engineer. She is really excited about the future of AI research. \n\n Currently one of the 32 students selected all around the world to be part of the first class Holberton School. Was a Student Intern at National Resource for Network Biology (NRNB) in 2012 . Member of NRNB Academy Alumni. Successfully completed Google Summer Of Code (GSOC) 2013 and GSOC 2014 first as a student and then as a mentor. Published WikiPathways: capturing the full diversity of pathway knowledge (2015) in Oxford Journals. \n\nSravanthi earned a Bachelor’s degree in Electronics & Communication Engineering from Jawaharlal Nehru Technological University in Hyderabad, India.'
             },
 
             {
@@ -190,7 +190,7 @@ angular.module('fdlApp')
                 showbio: false,
                 featured: false,
                 team: 'new discoveries',
-                bio: 'Born, raised and still reside on the Mornington Peninsula in Victoria, Australia. I love the area for its surfing, mountain biking, trail running and bushwalking. I have been a student of martial arts for over 15 years, training in a few styles. I have a super cute 1 year old son, and a beautiful partner. I pretty much get stoked on everything. I love learning new things and being challenged, and hate it when things are easy and boring. Ive spent over 10 years at university completing two first class honours degrees in mechanical engineering and science (applied maths and physics), and my PhD (still writing up) in ultracold computational physics. I currently work at CSIRO in the scientific computing team, working with researchers to enable them with our high performance computing systems and help develop their numerical algorithms. I love the broad range of scientific domains I encounter in my work, and especially love the continual challenge. I really like travelling. I get around as often as I can. I especially love eating in new places and experiencing different cuisine.'
+                bio: 'Born, raised and still reside on the Mornington Peninsula in Victoria, Australia. I love the area for its surfing, mountain biking, trail running and bushwalking. I have been a student of martial arts for over 15 years, training in a few styles. I have a super cute 1 year old son, and a beautiful partner. I pretty much get stoked on everything. I love learning new things and being challenged, and hate it when things are easy and boring.\n\n Ive spent over 10 years at university completing two first class honours degrees in mechanical engineering and science (applied maths and physics), and my PhD (still writing up) in ultracold computational physics. I currently work at CSIRO in the scientific computing team, working with researchers to enable them with our high performance computing systems and help develop their numerical algorithms. I love the broad range of scientific domains I encounter in my work, and especially love the continual challenge. I really like travelling. I get around as often as I can. I especially love eating in new places and experiencing different cuisine.'
             },
 
             {
@@ -210,7 +210,7 @@ angular.module('fdlApp')
                 showbio: false,
                 featured: false,
                 team: 'new discoveries',
-                bio: 'I am a Machine Learning PhD student at the University of Cambridge. My research has predominantly been on Bayesian nonparametric modelling and inference, including Gaussian and beta processes. In particular, I have spent most of my time considering model based optimization; this is the task of finding the optimum of a continuous function by judicious, sequential, point-wise evaluation, directed by modelling the unknown function and trading off exploration and exploitation. This is useful for functions which do not return derivatives and are expensive to evaluate, e.g. functions which require slow simulation. More recently, I have also been interested in deep representation learning and optimization. My Undergraduate and Masters level studies were in Mathematics and Statistics, also in Cambridge. Prior to starting my PhD, I worked as a Quantitative Strategist in the Investment Banking Division of Goldman Sachs. Outside of scientific research, I enjoy studying Psychology and Eastern Philosophy. I also seek thrills and pursue sports such as snowboarding, surfing and longboarding. Most of all, I enjoy meeting and getting to know different people, from various parts of the world. I hope my future involves continuous learning, travel, contemplation and adventure. '
+                bio: 'I am a Machine Learning PhD student at the University of Cambridge. My research has predominantly been on Bayesian nonparametric modelling and inference, including Gaussian and beta processes. In particular, I have spent most of my time considering model based optimization; this is the task of finding the optimum of a continuous function by judicious, sequential, point-wise evaluation, directed by modelling the unknown function and trading off exploration and exploitation. This is useful for functions which do not return derivatives and are expensive to evaluate, e.g. functions which require slow simulation. More recently, I have also been interested in deep representation learning and optimization. \n\nMy Undergraduate and Masters level studies were in Mathematics and Statistics, also in Cambridge. Prior to starting my PhD, I worked as a Quantitative Strategist in the Investment Banking Division of Goldman Sachs. Outside of scientific research, I enjoy studying Psychology and Eastern Philosophy. \n\nI also seek thrills and pursue sports such as snowboarding, surfing and longboarding. Most of all, I enjoy meeting and getting to know different people, from various parts of the world. I hope my future involves continuous learning, travel, contemplation and adventure. '
             },
     ];
 
