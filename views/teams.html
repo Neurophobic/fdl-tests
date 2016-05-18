@@ -20,20 +20,35 @@
     </span>
     <h1>new tools</h1>
 
+<div class="" ng-repeat="newTool in newTools | filter: {featured: true}">
+    <img class="pure-img team-img-feat" ng-src="images/teams/{{newTool.image}}"/>
+
+    <p class="team-name-feat">{{newTool.name}}</p>
+    <p class="team-title-feat ">{{newTool.title}}</p>
+    <p class="new-tool-mentor-email"><a href="">twitter/linkedin</a></p>
+    <p class="team-bio-feat" >"{{newTool.bio}}"</p>
+</div>
+
   </div>
   <div class="pure-u-16-24">
 
 
-    <div class="pure-u-1-2 team-card" ng-repeat="newTool in newTools">
-      <!-- <div class="pure-u-1-5"> -->
+    <div class="team-card pure-u-1-2"  ng-click="clickBio(newTool)"  ng-repeat="newTool in newTools">
+
+
+
         <img class="pure-img team-img" ng-src="images/teams/{{newTool.image}}"/>
-      <!-- </div> -->
-      <!-- <div class="pure-u-4-5"> -->
+
         <p class="team-name">{{newTool.name}}</p>
         <p class="team-title">{{newTool.title}}</p>
-        <p class="team-email"><a href="mailto:{{newTool.email}}">{{newTool.email}}</a></p>
-      <!-- </div> -->
-    </div>
+        <p class="new-tool-mentor-email " ng-if="newTool.featured"><a href="">twitter/linkedin</a></p>
+        <p class="team-email " ng-if="!newTool.featured"><a href="">twitter/linkedin</a></p>
+        <p class="team-part-bio"  ng-click="clickBio(newTool)" >"{{ newTool.bio | limitTo: 40 }}{{newTool.bio.length > 40 ? '...' : ''}}"</p>
+
+
+        <!-- <p class="bio-button" ng-click="clickBio(newTool)" ng-show="newTool.bio.length > 40"> FULL BIO</p> -->
+
+      </div>
 
 
   </div>
@@ -46,21 +61,36 @@
       team
     </span>
     <h1>new approaches</h1>
+    <div class="" ng-repeat="newApproach in newApproaches | filter: {featured: true}">
+    <img class="pure-img team-img-feat" ng-src="images/teams/{{newApproach.image}}"/>
+
+    <p class="team-name-feat">{{newApproach.name}}</p>
+    <p class="team-title-feat ">{{newApproach.title}}</p>
+    <p class="new-approach-mentor-email "><a href="">twitter/linkedin</a></p>
+    <p class="team-bio-feat" >"{{newApproach.bio}}"</p>
+</div>
 
   </div>
   <div class="pure-u-16-24">
 
 
-    <div class="pure-u-1-2 team-card" ng-repeat="newApproach in newApproaches">
-      <!-- <div class="pure-u-1-5"> -->
+    <div class="pure-u-1-2 team-card" ng-click="clickBio(newApproach)"  ng-repeat="newApproach in newApproaches">
+
+
         <img class="pure-img team-img" ng-src="images/teams/{{newApproach.image}}"/>
       <!-- </div> -->
       <!-- <div class="pure-u-4-5"> -->
         <p class="team-name">{{newApproach.name}}</p>
         <p class="team-title">{{newApproach.title}}</p>
-        <p class="team-email"><a href="mailto:{{newApproach.email}}">{{newApproach.email}}</a></p>
+        <p class="new-approach-mentor-email " ng-if="newApproach.featured"><a href="">twitter/linkedin</a></p>
+        <p class="team-email " ng-if="!newApproach.featured"><a href="">twitter/linkedin</a></p>
+        <p class="team-part-bio"  ng-click="clickBio(newApproach)">"{{ newApproach.bio | limitTo: 40 }}{{newApproach.bio.length > 40 ? '...' : ''}}"</p>
+
+
+
       <!-- </div> -->
-    </div>
+
+  </div>
 
 
   </div>
@@ -74,21 +104,34 @@
       team
     </span>
     <h1>new discoveries</h1>
+    <div class="" ng-repeat="newDiscovery in newDiscoveries | filter: {featured: true}">
+    <img class="pure-img team-img-feat" ng-src="images/teams/{{newDiscovery.image}}"/>
+
+    <p class="team-name-feat">{{newDiscovery.name}}</p>
+    <p class="team-title-feat ">{{newDiscovery.title}}</p>
+    <p class="new-discovery-mentor-email "><a href="">twitter/linkedin</a></p>
+    <p class="team-bio-feat" >"{{newDiscovery.bio}}"</p>
+</div>
 
   </div>
   <div class="pure-u-16-24">
 
 
-    <div class="pure-u-1-2 team-card" ng-repeat="newDiscovery in newDiscoveries">
-      <!-- <div class="pure-u-1-5"> -->
+    <div class="pure-u-1-2 team-card" ng-click="clickBio(newDiscovery)" ng-repeat="newDiscovery in newDiscoveries">
+
         <img class="pure-img team-img" ng-src="images/teams/{{newDiscovery.image}}"/>
       <!-- </div> -->
       <!-- <div class="pure-u-4-5"> -->
         <p class="team-name">{{newDiscovery.name}}</p>
         <p class="team-title">{{newDiscovery.title}}</p>
-        <p class="team-email"><a href="mailto:{{newDiscovery.email}}">{{newDiscovery.email}}</a></p>
+        <p class="new-discovery-mentor-email " ng-if="newDiscovery.featured"><a href="">twitter/linkedin</a></p>
+        <p class="team-email " ng-if="!newDiscovery.featured"><a href="">twitter/linkedin</a></p>
+        <p class="team-part-bio"  ng-click="clickBio(newDiscovery)" ng-hide="newDiscovery.showbio">"{{ newDiscovery.bio | limitTo: 40 }}{{newDiscovery.bio.length > 40 ? '...' : ''}}"</p>
+
+
       <!-- </div> -->
-    </div>
+
+  </div>
 
 
   </div>

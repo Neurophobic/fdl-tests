@@ -8,12 +8,8 @@
  * Controller of the fdlApp
  */
 angular.module('fdlApp')
-  .controller('ContactCtrl', function ($scope) {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('ContactCtrl', function ($scope, $route) {
+    $scope.$route = $route;
 
     $scope.contacts = [
       {title:'general information', url:'mailto:info@frontierdevelopmentlab.org', linkTitle:'info@frontierdevelopmentlab.org'},

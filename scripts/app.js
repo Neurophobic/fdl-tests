@@ -22,48 +22,57 @@ angular
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
-        controllerAs: 'main'
+        controllerAs: 'main',
+        activetab: 'main'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
-        controllerAs: 'about'
+        controllerAs: 'about',
+        activetab: 'about'
       })
       
       .when('/faq', {
         templateUrl: 'views/faq.html',
         controller: 'FaqCtrl',
-        controllerAs: 'faq'
+        controllerAs: 'faq',
+        activetab: 'faq'
       })
       .when('/challenges', {
         templateUrl: 'views/challenges.html',
         controller: 'ChallengesCtrl',
-        controllerAs: 'challenges'
+        controllerAs: 'challenges',
+        activetab: 'challenges'
       })
       .when('/people', {
         templateUrl: 'views/people.html',
         controller: 'PeopleCtrl',
-        controllerAs: 'people'
+        controllerAs: 'people',
+        activetab: 'people'
       })
       .when('/contact', {
         templateUrl: 'views/contact.html',
         controller: 'ContactCtrl',
-        controllerAs: 'contact'
+        controllerAs: 'contact',
+        activetab: 'contact'
       })
       .when('/teams', {
         templateUrl: 'views/teams.html',
         controller: 'TeamsCtrl',
-        controllerAs: 'teams'
+        controllerAs: 'teams',
+        activetab: 'teams'
       })
       .when('/resources', {
         templateUrl: 'views/resources.html',
         controller: 'ResourcesCtrl',
-        controllerAs: 'resources'
+        controllerAs: 'resources',
+        activetab: 'resources'
       })
       .when('/information', {
         templateUrl: 'views/information.html',
         controller: 'InformationCtrl',
-        controllerAs: 'information'
+        controllerAs: 'information',
+        activetab: 'information'
       })
       .otherwise({
         redirectTo: '/'

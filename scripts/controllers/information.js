@@ -8,10 +8,6 @@
  * Controller of the fdlApp
  */
 angular.module('fdlApp')
-  .controller('InformationCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('InformationCtrl', function ($scope, $route) {
+    $scope.$route = $route;
   });
