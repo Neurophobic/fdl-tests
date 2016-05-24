@@ -49,10 +49,10 @@ angular.module('fdlApp')
                 name: 'MICHAEL BUSCH',
                 title: 'mentor',
                 email: '',
-                image: 'empty.png',
+                image: 'buschProfile.png',
                 mentor: 'yes',
                 showbio: false,
-                bio: 'Mentor',
+                bio: 'I received my BS in physics and astronomy at the University of Minnesota in 2005.  I went to Caltech for grad school, where I had the fortune to be advised by the late Steve Ostro and by Shri Kulkarni, and to have a graduate fellowship through the Hertz Foundation.\n\n  I completed my PhD in planetary science in 2010, and did postdocs at UCLA and at the National Radio Astronomy Observatory - under the Jansky Fellows program - before starting as a research scientist at SETI in September 2013.',
                 featured: true,
                 team: 'new tools'
             },
@@ -197,9 +197,13 @@ angular.module('fdlApp')
                 name: 'robert citron',
                 title: 'planetary science',
                 email: 'ricitron@gmail.com',
-                image: 'empty.png',
+                image: 'citronProfile.png',
                 featured: false,
-                team: 'new discoveries'
+                team: 'new discoveries',
+                showbio:false,
+                featured: false,
+                team:'new discoveries',
+                bio:'Robert is a graduate student in Planetary Science at the University of California, Berkeley, where he studies geophysical processes on Mars and other planetary bodies. He received his masters degree in Astrophysical and Planetary Sciences from the University of Colorado, Boulder, and is interested in Solar System research and exploration.'
             },
 
             {
