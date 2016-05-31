@@ -15,7 +15,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'firebase'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -73,6 +74,16 @@ angular
         controller: 'InformationCtrl',
         controllerAs: 'information',
         activetab: 'information'
+      })
+      .when('/users', {
+        templateUrl: 'views/users.html',
+        controller: 'UsersCtrl',
+        controllerAs: 'users'
+      })
+      .when('/auth', {
+        templateUrl: 'views/auth.html',
+        controller: 'AuthCtrl',
+        controllerAs: 'auth'
       })
       .otherwise({
         redirectTo: '/'

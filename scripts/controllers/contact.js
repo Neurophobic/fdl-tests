@@ -13,8 +13,8 @@ angular.module('fdlApp')
 
     $scope.contacts = [
       {title:'general information', url:'mailto:info@frontierdevelopmentlab.org', linkTitle:'info@frontierdevelopmentlab.org'},
-      {title:'fdl co-director james', url:'mailto:james@frontierdevelopmentlab.org', linkTitle:'james@frontierdevelopmentlab.org'},
-      {title:'fdl co-director jordan', url:'mailto:jordan@frontierdevelopmentlab.org', linkTitle:'jordan@frontierdevelopmentlab.org'},
+//      {title:'fdl co-director james', url:'mailto:james@frontierdevelopmentlab.org', linkTitle:'james@frontierdevelopmentlab.org'},
+//      {title:'fdl co-director jordan', url:'mailto:jordan@frontierdevelopmentlab.org', linkTitle:'jordan@frontierdevelopmentlab.org'},
       {title:'twitter', url:'https://twitter.com/nasa_fdl', linkTitle:'@nasa_fdl'},
 //      {title:'facebook', url:'mailto:james@frontierdevelopmentlab.org', linkTitle:'Frontier Development Lab'}
     ];

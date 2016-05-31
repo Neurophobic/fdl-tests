@@ -14,6 +14,7 @@ body {
 .header,
 .marketing,
 .footer {
+/*    margin-top:50px;*/
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -129,6 +130,7 @@ body {
 }
 .navbar:before {}
 .navbar {
+  
     box-shadow: 0 -0px 30px -30px rgba(0, 0, 0, 0.5), 0 -6px 6px -6px rgba(0, 0, 0, 0.5);
     border-radius: none;
     border: none;
@@ -138,6 +140,7 @@ body {
     color: white !important;
 }
 .navbar a {
+   
     font-family: 'Roboto', sans-serif !important;
     /*font-weight:700 !important;*/
     font-size: 1.1em;
@@ -149,6 +152,14 @@ body {
 
   color:rgba(0,0,0,1) !important;
 }*/
+
+.navbar {
+    text-align: center;
+}
+.navbar-header{
+    text-align: center;
+    margin:auto;
+}
 
 .header {
     background-color: white;
@@ -233,6 +244,7 @@ h1 {
 .contained {
     max-width: 1024px;
     margin: auto;
+    margin-bottom:50px;
 }
 .profile {
     margin-top: 30px;

@@ -11,7 +11,7 @@ angular.module('fdlApp')
   .controller('HeaderCtrl', function ($scope, $location) {
     
     $scope.isActive = function(viewLocation){
-        console.log($location.path() + " -- " +viewLocation);
+//        console.log($location.path() + " -- " +viewLocation);
 //        return viewLocation === $location.path();
         
     };

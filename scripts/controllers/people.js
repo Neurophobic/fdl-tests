@@ -50,5 +50,11 @@ angular.module('fdlApp')
                 email: 'jonathan.knowles@autodesk.com',
                 image: 'images/people/jonProfile.png'
             },
+            {
+                name: 'Eric Dahlstrom',
+                title: 'President International Space Consultants',
+                email: 'eric.dahlstrom@internationalspace.org',
+                image: 'images/people/ericProfile.png'
+            },
     ];
     });

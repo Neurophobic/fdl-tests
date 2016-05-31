@@ -52,7 +52,7 @@ angular.module('fdlApp')
                 image: 'buschProfile.png',
                 mentor: 'yes',
                 showbio: false,
-                bio: 'I received my BS in physics and astronomy at the University of Minnesota in 2005.  I went to Caltech for grad school, where I had the fortune to be advised by the late Steve Ostro and by Shri Kulkarni, and to have a graduate fellowship through the Hertz Foundation.\n\n  I completed my PhD in planetary science in 2010, and did postdocs at UCLA and at the National Radio Astronomy Observatory - under the Jansky Fellows program - before starting as a research scientist at SETI in September 2013.',
+                bio: 'I am a planetary astronomer specializing in the physical characterization of near-Earth asteroids.  I received his PhD at Caltech in 2010, and worked as a postdoc at UCLA and at the National Radio Astronomy Observatory before joining the SETI Institute as a research scientist in 2013.  Most recently, I have worked on characterizing potential targets for future asteroid space missions.',
                 featured: true,
                 team: 'new tools'
             },
@@ -82,23 +82,23 @@ angular.module('fdlApp')
                 name: 'olorato mosiane',
                 title: 'planetary science',
                 email: 'omosiane@ska.ac.az',
-                image: 'empty.png',
+                image: 'olorato.png',
                 showbio: false,
                 featured: false,
                 team: 'new tools',
-                bio: ''
+                bio: 'My name is Olorato Mosiane, I enjoy skateboarding and coding. I currently work at the Square Kilometer Array South Africa (SKA-SA) as a junior science process developer. I am currently working on machine learning applications in detecting and mitigating radio frequency interference (RFI). During my extra time, I enjoy trading and try to develop some strategies that will try give me a edge on the markets.'
             },
 
-            {
-                name: 'troy hernandez',
-                title: 'data science',
-                email: 'troy.hernandez.phd@gmail.com',
-                image: 'empty.png',
-                showbio: false,
-                featured: false,
-                team: 'new tools',
-                bio: ''
-            },
+//            {
+//                name: 'troy hernandez',
+//                title: 'data science',
+//                email: 'troy.hernandez.phd@gmail.com',
+//                image: 'empty.png',
+//                showbio: false,
+//                featured: false,
+//                team: 'new tools',
+//                bio: ''
+//            },
     ];
 
         $scope.newApproaches = [
@@ -106,12 +106,12 @@ angular.module('fdlApp')
                 name: 'franck marchis',
                 title: 'mentor',
                 email: '',
-                image: 'empty.png',
+                image: 'franckProfile.png',
                 mentor: 'yes',
                 featured: true,
                 showbio: false,
                 team: 'new approaches',
-                bio: 'Mentor'
+                bio: 'Dr. Franck Marchis is a Senior Researcher and Chair of the Exoplanet Group at the Carl Sagan Center of the SETI Institute since July 2007. Over the past 19 years, he has dedicated his research to the study of our solar system, specifically the search for asteroids with moons, using mainly ground-based telescopes equipped with adaptive optics. More recently he has been also involved in the definition of new generation of AOs for 8 -10 m class telescopes and future Extremely Large Telescopes. He has developed algorithms to process and enhance the quality of images, both astronomical and biological. His currently involved in the Gemini Planet Imager Exoplanet Survey, which consists in imaging exoplanets using an extreme AO system for the Gemini South telescope. This new instrument is be capable of imaging and recording spectra of young Jupiter-like exoplanets orbiting around nearby stars.'
       },
 
             {
@@ -163,12 +163,12 @@ angular.module('fdlApp')
                 name: 'peter jenniskins',
                 title: 'mentor',
                 email: '',
-                image: 'empty.png',
+                image: 'peterProfile.png',
                 showbio: false,
                 featured: true,
                 mentor: 'yes',
                 team: 'new discoveries',
-                bio: 'mentor'
+                bio: 'If you ever spend a night under the stars watching for meteors and saw something unusual, you may want to meet astronomer Dr. Peter Jenniskens. He’s an expert on meteor showers and author of Meteor Showers and their Parent Comets, a 790 page book containing predictions on what unusual meteor showers to expect in the next 50 years.'
             },
 
             {
